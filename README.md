@@ -1,3 +1,3 @@
 ## Design & Implementation of a Small-Scale Capacitive Discharge Spot Welder
-# Notes !!
+# !! Notes !!
 - Project is still open to improvements (mentioned later)
