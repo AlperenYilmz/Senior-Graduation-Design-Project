@@ -1,2 +1,3 @@
-# Senior_Design_Project
-My BSc in EEE graduation design project and documents.
+## Design & Implementation of a Small-Scale Capacitive Discharge Spot Welder
+# Notes !!
+- Project is still open to improvements (mentioned later)
