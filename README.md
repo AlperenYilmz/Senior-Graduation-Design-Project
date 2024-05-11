@@ -1,7 +1,8 @@
 # Design & Implementation of a Small-Scale Capacitive Discharge Spot Welder
 ### !! Some Foreword !!
 - Project is open to improvements (mentioned later)
-- Thanks to VasilKalchev for >https://github.com/VasilKalchev/LiquidMenu
+- Big thanks to our project instructor, [Asst. Prof. Gokhan Dindis](https://avesis.ogu.edu.tr/gdindis/) for all his contribution and guidance along the way.
+- Also thanks to VasilKalchev for [LiquidMenu](https://github.com/VasilKalchev/LiquidMenu) library for Arduino. 
 
 ## 1. Introduction
 - So basically, our project is (was) to design a spot welder for home or small industry usage. If you check the internet for similar devices, you will see thousands of products and projects.
@@ -45,6 +46,7 @@ Second version employs a voltage sense logic, determines the potential drop and 
 ### 5.1 Faults
 - Due to the immediate, high-current switching, there is a large inductive voltage spike happening at mosfet gates, which results in burning of the IR2101 mosfet driver. Oscilloscope snapshots of these spikes are below:
 ![resim](https://github.com/AlperenYilmz/Senior_Design_Project/assets/99748681/fc7b8328-f1ec-435d-9d41-314bbf70cf31)
+- These spikes rate up to 20 to 30 volts, which is enough to roast the driver high-side output pin.
 - Most logical and economic solution for this problem is isolating the mosfets with a optocoupler.
 
 ### 5.2 Photos
