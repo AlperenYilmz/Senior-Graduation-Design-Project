@@ -1,3 +1,10 @@
+/*
+  Name : Small Scale Capacitive Discharge Type Spot Welder
+  Title : Arduino NANO / UNO based Small Scale Capacitive Discharge Type Spot Welder
+  Author: Alperen Yılmaz
+  URL: https://github.com/gavinlyonsrepo/LCR_meter
+*/
+
 #include <LiquidCrystal.h>
 #include <LiquidMenu.h>
 
